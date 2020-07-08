@@ -9,25 +9,31 @@
 /* Begin PBXBuildFile section */
 		D4BB877624B4B70500B4ABC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB877524B4B70500B4ABC9 /* AppDelegate.swift */; };
 		D4BB877824B4B70500B4ABC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB877724B4B70500B4ABC9 /* SceneDelegate.swift */; };
-		D4BB877A24B4B70500B4ABC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB877924B4B70500B4ABC9 /* ViewController.swift */; };
 		D4BB877D24B4B70500B4ABC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BB877B24B4B70500B4ABC9 /* Main.storyboard */; };
 		D4BB877F24B4B70600B4ABC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4BB877E24B4B70600B4ABC9 /* Assets.xcassets */; };
 		D4BB878224B4B70600B4ABC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BB878024B4B70600B4ABC9 /* LaunchScreen.storyboard */; };
 		D4BB879224B4BED800B4ABC9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB879124B4BED800B4ABC9 /* NetworkManager.swift */; };
 		D4BB879424B4BF0500B4ABC9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB879324B4BF0500B4ABC9 /* Character.swift */; };
+		D4BB879624B4C36400B4ABC9 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB879524B4C36400B4ABC9 /* CharacterTableViewController.swift */; };
+		D4BB879924B4C50F00B4ABC9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB879824B4C50F00B4ABC9 /* TableViewCell.swift */; };
+		D4BB879B24B4C5FF00B4ABC9 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB879A24B4C5FF00B4ABC9 /* DetailsViewController.swift */; };
+		D4BB879F24B4C85200B4ABC9 /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB879E24B4C85200B4ABC9 /* Extension + UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4BB877224B4B70500B4ABC9 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BB877524B4B70500B4ABC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4BB877724B4B70500B4ABC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4BB877924B4B70500B4ABC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4BB877C24B4B70500B4ABC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4BB877E24B4B70600B4ABC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4BB878124B4B70600B4ABC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4BB878324B4B70600B4ABC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4BB879124B4BED800B4ABC9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D4BB879324B4BF0500B4ABC9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		D4BB879524B4C36400B4ABC9 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
+		D4BB879824B4C50F00B4ABC9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D4BB879A24B4C5FF00B4ABC9 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D4BB879E24B4C85200B4ABC9 /* Extension + UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		D4BB877424B4B70500B4ABC9 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				D4BB879724B4C4CD00B4ABC9 /* Views */,
 				D4BB879024B4B7C100B4ABC9 /* ViewControllers */,
 				D4BB878F24B4B7B000B4ABC9 /* Storyboards */,
 				D4BB878E24B4B79500B4ABC9 /* SupportFiles */,
@@ -90,6 +97,7 @@
 		D4BB878C24B4B75000B4ABC9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D4BB879E24B4C85200B4ABC9 /* Extension + UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -124,9 +132,18 @@
 		D4BB879024B4B7C100B4ABC9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D4BB877924B4B70500B4ABC9 /* ViewController.swift */,
+				D4BB879524B4C36400B4ABC9 /* CharacterTableViewController.swift */,
+				D4BB879A24B4C5FF00B4ABC9 /* DetailsViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D4BB879724B4C4CD00B4ABC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4BB879824B4C50F00B4ABC9 /* TableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +218,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4BB879224B4BED800B4ABC9 /* NetworkManager.swift in Sources */,
-				D4BB877A24B4B70500B4ABC9 /* ViewController.swift in Sources */,
+				D4BB879624B4C36400B4ABC9 /* CharacterTableViewController.swift in Sources */,
+				D4BB879F24B4C85200B4ABC9 /* Extension + UIViewController.swift in Sources */,
 				D4BB879424B4BF0500B4ABC9 /* Character.swift in Sources */,
+				D4BB879924B4C50F00B4ABC9 /* TableViewCell.swift in Sources */,
+				D4BB879B24B4C5FF00B4ABC9 /* DetailsViewController.swift in Sources */,
 				D4BB877624B4B70500B4ABC9 /* AppDelegate.swift in Sources */,
 				D4BB877824B4B70500B4ABC9 /* SceneDelegate.swift in Sources */,
 			);
